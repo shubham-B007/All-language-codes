@@ -1,0 +1,7 @@
+#write a program for a numbers which are divisible by 7 but are not a multiple of 5 numbers are between 2000 to 3200 with comma seprated output.
+l=[]
+for x in range(2000,3200):
+    if x%7==0:
+        if (x%5)!=0:
+            l.append(str(x))
+print(",".join(l))
